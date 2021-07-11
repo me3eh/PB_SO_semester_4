@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/wait.h>
@@ -37,5 +38,6 @@ int main ()
     }
     return 0;
 }
+```
 Zmodyfikuj powyższy przykład tak aby proces potomny przekierowywał swoje standardowe wyjście do pliku tekstowego o nazwie przekazanej przez argument funkcji main.
 Uzupełnij kod o prawidłową kontrolę błędów wywołań systemowych (1p)
