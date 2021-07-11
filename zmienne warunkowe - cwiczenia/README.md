@@ -1,3 +1,4 @@
+```c
 //### Przykład 2 #########################
 //########################################
 
@@ -83,7 +84,7 @@ void *banker(void* ptr) {
 
       }
 }
-
+```
 Zadanie (1p)
 
 Przeanalizuj kod z Przykładu 2. Przyjrzyj się dokładnie funkcji void *watcher() - czy rzeczywiście jest to jedynie "obserwator" konta? Popraw kod tak, aby funkcja wypisywała (co najwyżej raz) stan po zmianie konta, ale już bez jego modyfikacji.
