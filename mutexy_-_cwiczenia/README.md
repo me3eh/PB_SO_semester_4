@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -50,7 +51,7 @@ void *printString( void *ptr ) {
     }
 
 }
-
+```
 Zadanie 1.
 
 Napisz program w którym funkcja main tworzy N wątków, po czym oczekuje na ich zakończenie. Każdy wątek powinien w pętli inkrementować ITER razy globalną zmienną counter. Parametry N oraz ITER powinny być przekazane jako argumenty programu (funkcji main). Po zakończeniu wszystkich wątków funkcja main powinna wyświetlić ostateczną wartość zmiennej counter. 
