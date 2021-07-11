@@ -1,3 +1,4 @@
+```
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <stdio.h>
@@ -59,4 +60,6 @@ int main(void) {
         }
    exit(EXIT_SUCCESS);
 }
+```
+
 Korzystając z przykładowego kodu napisz demona systemowego, który co 20 sekund uruchamiał będzie zewnętrzny program (np. Firefox). Do uruchamiania programu użyj wywołań systemowych fork i exec.
